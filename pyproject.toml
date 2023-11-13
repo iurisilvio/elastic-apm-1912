@@ -1,0 +1,12 @@
+[project]
+name = "apm-agent-python-1912"
+version = "0.0.0"
+dependencies = [
+    "ansible",
+    "elastic-apm",
+    "urllib3",
+]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
